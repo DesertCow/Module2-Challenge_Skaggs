@@ -31,7 +31,8 @@ Version 0.1</h5>
 
 ---
 
-<p><b>GIVEN</b> I need to sample a potential employee's previous work<br><br>
+<p align="center">🌟 🌟 <b>GIVEN</b> I need to sample a potential employee's previous work 🌟 🌟<br><br></p>
+<p>
 <b>WHEN</b> I load their portfolio<br>
 ❌ THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them<br><br>
 <b>WHEN</b> I click one of the links in the navigation<br>
