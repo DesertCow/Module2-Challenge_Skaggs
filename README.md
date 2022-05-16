@@ -45,10 +45,8 @@ Version 0.1</h5>
 ❌ THEN I am taken to that deployed application<br><br>
 <b>WHEN</b> I resize the page or view the site on various screens and devices<br>
 ❌ THEN I am presented with a responsive layout that adapts to my viewport</p>
+<br>
 ✔️
-
-------
-
 <br>
 <br>
 
@@ -56,14 +54,27 @@ Version 0.1</h5>
 
 ---
 
-![alt text](./dev-notes/02-advanced-css-homework-demo.gif)
+![Example of mock layout](./dev-notes/02-advanced-css-homework-demo.gif)
 
 
 <br>
 <br>
+
+<h3 align="center">Final Product GIF</h3>
+
+---
+
+![Placemarker for screen shot of final version](./dev-notes/Final_Demo.gif)
+
+<br>
+<br>
+
 <h3 align="center">Deployment Information</h3>
 
 ---
+
+<br>
+<br>
 
 <div align="center">
 🚀 <a href="https://github.com/DesertCow/Module2-Challenge_Skaggs">github.com/DesertCow/Module2-Challenge_Skaggs</a> 🚀
