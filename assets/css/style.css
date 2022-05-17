@@ -4,14 +4,29 @@
   padding:0;  
 }
 
-/* Element Selectors */
-
-
-
-
-
-
 /* Class Selectors */
+
+.column {
+  flex: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+
+.column-About {
+  flex: 50%;
+}
+.row-About {
+  display: flex;
+}
+
+
+
+
+
+/* Grouping Selectors */
 
 body {
   display: flex;
@@ -28,17 +43,12 @@ header {
   color: #fff;
   border-bottom: 20px solid #DDAF94;
 }
-profile {
-
-}
 
 profile img {
   display: block;
-  margin: 40px auto;
-  max-width: 50%;
-  height: auto;
+  min-width: 10%;
+  max-width: 25%;
   background-color: #DDAF94;
-  width: auto;
   border: 15px solid #3e7ebb;
   padding: 5px;
   margin: 20px;
@@ -46,13 +56,12 @@ profile img {
 
 profile p {
   display: block;
-  margin: 40px auto;
-  max-width: 50%;
-  height: auto;
+  min-width: 100%;
+  min-height: 30%;
   background-color: #DDAF94;
   width: 50%;
   border: 15px solid #3e7ebb;
-  padding: 5px;
+  padding: 15px;
   margin: 20px;
   text-align: center;
 }
@@ -70,10 +79,25 @@ nav a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
   text-decoration: none;
+  margin: 50px;
+  background-color: #DDAF94;
+  padding: 25px;
+  border-radius: 25px;
 }
 
 nav a:hover {
   color: rgb(255, 255, 255);
+}
+
+profile {
+  display: flex;
+  height:30%;
+  width: 100%;
+  /* background-color: aliceblue; */
+  border-left:solid #DDAF94 10px;
+  padding-left: 2%;
+  padding-top: 2%;
+  flex-wrap: wrap;
 }
 
 profile ul li {
@@ -122,6 +146,7 @@ AppZone {
   border-left:solid #DDAF94 10px;
   padding-left: 30px;
   flex-wrap: wrap;
+  margin: 5%;
 
 }
 
@@ -141,19 +166,26 @@ AppZone smallApp {
   margin: 50px 50px 50px 50px;
   border: 15px solid #3e7ebb;
   background-color: #DDAF94;
-  width: 150px;
-  height: 150px;
+  min-width: 150px;
+  min-height: 150px;
 }
 
 AppZone smallApp h3 {
   text-align: center;
-  margin: 50px 50px;
+  margin: 5%;
 }
 
+AppZone smallApp:hover {
+  background-color: #de1616;
+}
+
+AppZone mainApp:hover {
+  background-color: #e31414;
+}
 /* ID Selectors */
 
 #AboutMe {
-
+  margin: 5%;
 }
 
 
@@ -173,7 +205,7 @@ AppZone smallApp h3 {
 }
 
 #NameStyle {
-  text-align: center;
+  /* text-align: center; */
   font-size: 50px;
   /* Add Cool Fancy Font */
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif

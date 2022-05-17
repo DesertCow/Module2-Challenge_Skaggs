@@ -23,20 +23,20 @@
 
   <div id="AboutMe">
     <profile>
-      <ul>
-        <li><img src="./assets/img/Profile.jpg" alt="User Profile Picture"></li>
-        <li> <div id="NameStyle">Clayton Skaggs</div>
-            <p><br>To force the li elements to be horizontal, we use the CSS float property. The float property is a positioning and
-            formatting rule for the layout of content. We set the value of the float property to “left”, which floats all the li
-            elements next to each other.
-            </p>
-        </li>
-      </ul>
+      <div class="row-About">
+          <img class="column-About" src="./assets/img/Profile.jpg" alt="User Profile Picture">
+      </div>
+      <div class="column-About">
+        <div id="NameStyle">Clayton Skaggs</div>
+      </div>
+      <div class="column-About">
+        <p><br>Hello this is my introduction place marker! This is where i tell you about my blah blah blah. I enjoy blah blah blah.
+        </p>
+      </div>
     </profile>
 
   </div>
 
-  <br>
 
   <AppZone>
     <div class="row">
@@ -48,10 +48,10 @@
       <smallApp  class="column">
         <h3>App # 2</h3>
       </smallApp>
-      <smallApp  class="column">
+      <smallApp>
         <h3>App # 3</h3>
       </smallApp>
-      <smallApp>
+      <smallApp class="column">
         <h3>App # 4</h3>
       </smallApp>
       <smallApp>
@@ -84,3 +84,9 @@
 </body>
 
 </html>
+
+
+<!-- 🛠️ 🛠️ REfactor WishList 🛠️ 🛠️
+1) Define centeral color scheme / call only variables in CSS
+2) Fix broken Nav Links
++ -->
