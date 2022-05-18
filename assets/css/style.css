@@ -29,9 +29,18 @@
   flex: 50%;
 }
 
-.row {
+.row-1 {
   display: flex;
+  flex: 100%;
+  width: max-content;
 }
+
+.row-4 {
+  display: flex;
+  flex-direction: row;
+  flex: 25%;
+}
+
 
 
 .column-About {
@@ -40,10 +49,6 @@
 }
 .row-About {
   display: flex;
-}
-
-.appLink {
-
 }
 
 
@@ -120,13 +125,13 @@ figure img {
 /* Bio paragraph */
 figure p {
   display: block;
-  /* min-width: 100%;
+  min-width: 100%;
   min-height: 15px;
-  background-color: var(--color3); */
-  /* width: 50%;
+  background-color: var(--color3);
+  width: 50%;
   border: 15px solid var(--color1);
   padding: 15px;
-  margin: 5%; */
+  margin: 5%;
   text-align:left;
 }
 
@@ -156,48 +161,69 @@ figure ul li {
 
 /* ============== App Zone ============== */
 
-AppZone {
-  height: 850px;
-  border-left:solid var(--color2) 10px;
+section {
+  display: flex;
   flex-wrap: wrap;
-
+  height: 400px;
+  border-left:solid var(--color2) 10px;
+  justify-content: center;
+  padding: 5%;
+  margin: 5%;
 }
 
-AppZone mainApp {
+section mainApp {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 250px;
   background-color: var(--color5);
-  width: 250px;
+  min-width: 100%;
+  width: 900%;
   border: 15px solid var(--color1);
   padding: 10px;
-  margin: 50px 50px 50px 50px;
+  margin-left: 10%;
   text-align: center;
 }
 
-AppZone mainApp:hover {
+section mainApp:hover {
   background-color: var(--color2);
 }
 
-AppZone smallApp {
-  margin: 50px 50px 50px 50px;
+section smallApp {
+  display: flex;
+  margin-top: 350px;
+  flex-direction: column;
   border: 15px solid var(--color1);
   background-color: var(--color5);
-  min-width: 150px;
-  min-height: 150px;
+  width: 250px;
+  height: 250px;
+  padding-top: 5%;
+  padding-right: 5%;
+  text-align: center;
 }
 
-AppZone smallApp h3 {
+section smallApp h3 {
   text-align: center;
   margin: 5%;
 }
 
-AppZone smallApp:hover {
+section smallApp:hover {
   background-color: var(--color2);
 }
 
 #AppZone {
-  margin: 5%;
+  margin-left: 5%;
+}
+
+AppZone div a h3 {
+  text-align: center;
+  font-size: px;
+  padding-top: 5%;
+}
+
+AppZone div a h4 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5%;
 }
 
 /* ============== Contact ============== */
