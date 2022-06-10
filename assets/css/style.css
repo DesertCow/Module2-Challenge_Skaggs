@@ -67,18 +67,18 @@ body {
 /* Header/Navbar */
 header {
   display: flex;
-  justify-content:right;
-  align-items:flex-end;
+  justify-content:space-evenly;
+  align-items:center;
   padding: 5%;
-  background-color: var(--color1);
-  border-bottom: 20px solid var(--color4);
+  /* background-color: var(--color1); */
+  /* border-bottom: 20px solid var(--color4); */
 }
 
 /* ============== Nav Bar ============== */
 
 nav ul {
   display: flex;
-  justify-content:right;
+  justify-content:center;
 }
 
  /* Nav Box Links */
@@ -90,6 +90,7 @@ nav a {
   text-decoration: none;
   margin: 50px;
   background-color: var(--color3);
+  opacity: 0.82;
   padding: 15px;
   border-radius: 25px;
 }
