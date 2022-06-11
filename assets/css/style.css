@@ -150,29 +150,35 @@ figure img {
   min-width: 10%;
   max-width: 35%;
   background-color: rgba(255, 255, 255, 0.816);
-  /* border: 15px solid var(--color1); */
-  padding: 5px;
+  /*border: 15px solid var(--color1);
+  */padding: 5px;
   margin-left: 2%;
   margin-right: 25%;
   width: 50%;
+  border-radius: 50px;
   -webkit-border-radius: 50px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 /* Bio paragraph */
 figure p {
   display: block;
-  min-width: 100%;
-  min-height: 15px;
-  background-color: var(--color3);
+  min-width: 150%;
+  min-height: 80%;
+  background-color: rgba(255, 255, 255, 0.749);
   width: 50%;
-  border: 15px solid var(--color1);
+
   padding: 15px;
   margin: 5%;
-  margin-top: 25%;
+  margin-top: 10%;
   text-align:left;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 /*   List Settiings for About-Me     */
