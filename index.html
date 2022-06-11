@@ -31,7 +31,7 @@
 
   <div class="container d-flex" id="AboutMe">
     <figure class="flex-row justify-content-start">
-      <img class="flex-col column-About justify-content-start" src="./assets/img/Profile.jpg" alt="User Profile Picture">
+      <img class="flex-col profilePic justify-content-start" src="./assets/img/Profile.jpg" alt="User Profile Picture" style="width:367px;height:330px;">
       <div class="column-About">
         <P>PLACE HOLDER FOR INTRODUCTION TEXT <br>
         PLACE HOLDER FOR INTRODUCTION TEXT <br>
@@ -54,11 +54,28 @@
       <div class="flex-col"></div>
   </div>
 
-  <section id="AppZone">
-    <h2>Dinner With Schmucks </h2>
-    <a href="https://desertcow.github.io/DinnerWithSchmucks" class="row-1">
-      <img src="https://github.com/DesertCow/DinnerWithSchmucks/blob/main/assets/images/DinnerWithSchmucks_Demo.gif?raw=true" alt="Dinner For Schmucks Demo GIF" style="width:691px;height:334px;">
+  <section id="AppZone" class="container">
+    <div class="flex-row appZoneBox">
+    <h2 class="flex-col">Dinner With Schmucks </h2>
+    <a href="https://desertcow.github.io/DinnerWithSchmucks" class="flex-row">
+      <img
+        class="AppGIF"
+        src="https://github.com/DesertCow/DinnerWithSchmucks/blob/main/assets/images/DinnerWithSchmucks_Demo.gif?raw=true"
+        alt="Dinner For Schmucks Demo GIF" 
+        style="width:690px;height:334px;">
     </a>
+    </div>
+    <div class="flex-row appZoneBox">
+      <h2 class="flex-col">Wx Dashboard </h2>
+      <a href="https://desertcow.github.io/WxDashboard" class="flex-row">
+        <img
+        class="AppGIF"
+        src="https://github.com/DesertCow/WxDashboard/raw/main/assets/devMeta/Final_Demo.gif?raw=true" 
+        alt="WX Dashboard Demo GIF" 
+        style="width:458px;height:378px;">
+      </a>
+    </div>
+
     <!-- <div class="row-4">
       <a href="https://google.com"><smallApp class="column"><h3>App # 2</h3></smallApp></a>
       <a href="https://google.com"><mainApp class="column"><h3>App # 3</h3></mainApp></a>
@@ -68,11 +85,11 @@
   <br>
 
   <contact id="ContactInfo"> 
-    <ul>
+    <ul class="contactBar">
       <li><h2>Contact Information</h2></li>
-      <li><a href="mailto:clayton.skaggs89@gmail.com">EMail</a></li>
-      <li><a href="https://github.com/DesertCow">GitHub</a></li>
-      <li><a href="https://www.instagram.com/skagggggggs/">Instagram</a></li>
+      <li class="contactBox"><a href="mailto:clayton.skaggs89@gmail.com">EMail</a></li>
+      <li class="contactBox"><a href="https://github.com/DesertCow">GitHub</a></li>
+      <li class="contactBox"><a href="https://www.instagram.com/skagggggggs/">Instagram</a></li>
     </ul>
   </contact>
 
