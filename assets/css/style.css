@@ -64,6 +64,27 @@ body {
   background-size: 100%;
 }
 
+.firstName {
+  font-size: 60px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.lastName {
+  font-size: 60px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin-top: 60px;
+  margin-left: -108px;
+
+}
+
+nav ul {
+  margin-left: -50px;
+}
+
+.EpicButton {
+  margin-left: 250px;
+}
+
 /* Header/Navbar */
 header {
   display: flex;
@@ -71,7 +92,9 @@ header {
   align-items:center;
   padding: 5%;
   /* background-color: var(--color1); */
-  /* border-bottom: 20px solid var(--color4); */
+  border-bottom: 20px solid var(--color4);
+  border-bottom: #353535;
+
 }
 
 /* ============== Nav Bar ============== */
@@ -83,21 +106,27 @@ nav ul {
 
  /* Nav Box Links */
 nav a {
-  color: var(--color2);
+  display: flex;
+  color: white;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
   text-decoration: none;
-  margin: 50px;
-  background-color: var(--color3);
-  opacity: 0.82;
+  margin: 25px;
+  background-color: #35353572;
+  opacity: 0.95;
   padding: 15px;
   border-radius: 25px;
+  text-align: center;
+  align-items: center;
 }
 
 /* Nav Bar Link Highlight Color */
 nav a:hover {
-  color: var(--color2);
+  color: white;
+  /* background-color: rgb(95, 115, 146); */
+  text-shadow: 2px 2px rgb(62, 62, 62);
+  opacity: 0.50;
 }
 
 /* ============== About Me ============== */
